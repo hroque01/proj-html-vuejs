@@ -38,7 +38,7 @@ export default {
 
 <template>
 
-    <div class="container">
+    <div class="container-larger">
         <div class="header-nav">
             <div class="nav-left">
                 <!-- Logo -->
@@ -80,6 +80,11 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/partials/variables.scss' as *;
+@use '../styles/general.scss' as *;
+
+.container-larger {
+    margin-left: 20px;
+}
 
 .header-nav {
     display: flex;
