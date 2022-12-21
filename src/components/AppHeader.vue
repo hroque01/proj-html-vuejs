@@ -93,25 +93,32 @@ export default {
         display: flex;
         align-items: center;
 
-        ul {
-            display: flex;
-            gap: 1.25rem;
-        }
+        nav {
 
-        .navigation {
+            margin-left: 5rem;
 
-            a {
-                font-weight: bold;
-                color: $font-white;
-
-                &.active,
-                &:hover {
-                    padding-bottom: 15px;
-                    border-bottom: 2px solid $font-white;
-                }
+            ul {
+                display: flex;
+                gap: 1.25rem;
             }
 
+            .navigation {
+
+                a {
+                    font-weight: bold;
+                    color: $font-white;
+
+                    &.active,
+                    &:hover {
+                        padding-bottom: 15px;
+                        border-bottom: 2px solid $font-white;
+                    }
+                }
+
+            }
         }
+
+
     }
 
     .consultation {
