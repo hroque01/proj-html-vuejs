@@ -2,6 +2,7 @@
 import AppHeaderVue from './components/AppHeader.vue';
 import AppJumbotronVue from './components/AppJumbotron.vue';
 import AppServicesVue from './components/AppServices.vue';
+import AppSkilledVue from './components/AppSkilled.vue';
 
 export default {
   name: "App",
@@ -9,6 +10,7 @@ export default {
     AppHeaderVue,
     AppJumbotronVue,
     AppServicesVue,
+    AppSkilledVue,
   }
 }
 </script>
@@ -20,6 +22,7 @@ export default {
   <main>
     <AppJumbotronVue />
     <AppServicesVue />
+    <AppSkilledVue />
   </main>
 </template>
 

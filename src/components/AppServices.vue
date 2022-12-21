@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-larger">
+    <section class="container-larger">
         <h6>Aviable Services</h6>
         <div>
             <ul class="d-flex p-0"> <!-- bootstrap  class-->
@@ -51,8 +51,7 @@ export default {
                 </button>
             </div>
         </div>
-
-    </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
