@@ -38,6 +38,20 @@ export default {
                 </li>
             </ul>
         </div>
+        <div class="bottom-service">
+            <div class="info-img">
+                <img src="/info-5-2x-600x648.png" alt="">
+            </div>
+            <div class="bottom-service-right">
+                <img src="/icon-1-2x-200x155.png" alt="">
+                <h1>Find the ultimate virtual assistant for your business</h1>
+                <p>Donest est tristique eu massa pallentesque non sit sit donec. Proin aucto est vehicula</p>
+                <button class="button">
+                    What is a VA exactly?
+                </button>
+            </div>
+        </div>
+
     </div>
 </template>
 
@@ -81,6 +95,39 @@ export default {
         h3 {
             padding-bottom: 10px;
         }
+    }
+
+    .info-img {
+        padding: 5% 0;
+
+        img {
+            width: 85%;
+        }
+    }
+
+    .bottom-service {
+        display: flex;
+
+
+        .bottom-service-right {
+            color: $color-bg;
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            h1 {
+                padding-top: 3%;
+                padding-bottom: 3%;
+            }
+
+            p {
+                padding-bottom: 3%;
+            }
+        }
+
     }
 }
 </style>
