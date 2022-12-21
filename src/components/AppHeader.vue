@@ -52,7 +52,7 @@ export default {
                 <nav>
                     <ul>
                         <li class="navigation" v-for="(link, index) in links" :key="index">
-                            <a :href="link.url">
+                            <a :class="{ active: link.current }" :href="link.url">
                                 {{ link.text }}
                             </a>
                         </li>
@@ -63,8 +63,10 @@ export default {
             <!-- Consulting -->
             <div class="consultation">
                 <div class="call-center">
-                    <font-awesome-icon icon="fa-solid fa-headset" />
-                    <span> 1.800.123.4567 </span>
+                    <a href="#">
+                        <font-awesome-icon icon="fa-solid fa-headset" />
+                        <span> 1.800.123.4567 </span>
+                    </a>
                 </div>
                 <!-- Button -->
                 <button class="button btn_white">
@@ -99,7 +101,14 @@ export default {
         .navigation {
 
             a {
+                font-weight: bold;
                 color: $font-white;
+
+                &.active,
+                &:hover {
+                    padding-bottom: 15px;
+                    border-bottom: 2px solid $font-white;
+                }
             }
 
         }
@@ -107,7 +116,21 @@ export default {
 
     .consultation {
         display: flex;
+        align-items: center;
         gap: 1.25rem;
+
+        .call-center {
+
+            a {
+                font-weight: bold;
+                color: $font-white;
+
+                &:hover {
+                    color: lightgrey;
+                }
+            }
+        }
+
     }
 
 
