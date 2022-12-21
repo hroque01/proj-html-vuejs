@@ -26,6 +26,9 @@ export default {
 @use './styles/partials/variables.scss' as *;
 
 header {
+  background-image: url("/header-bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
   background-color: $color-bg;
 }
 </style>

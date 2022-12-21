@@ -54,7 +54,7 @@ export default {
 
         .JumboText {
             width: 35%;
-            margin-left: 13%;
+            margin-left: 10%;
             text-align: center;
 
             h1 {
