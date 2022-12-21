@@ -1,10 +1,12 @@
 <script>
 import AppHeaderVue from './components/AppHeader.vue';
+import AppJumbotronVue from './components/AppJumbotron.vue';
 
 export default {
   name: "App",
   components: {
     AppHeaderVue,
+    AppJumbotronVue,
   }
 }
 </script>
@@ -13,6 +15,10 @@ export default {
   <header>
     <AppHeaderVue />
   </header>
+  <main>
+    <AppJumbotronVue />
+  </main>
+
 </template>
 
 <style lang="scss">
