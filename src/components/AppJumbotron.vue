@@ -47,14 +47,14 @@ export default {
 .jumbotron {
     position: relative;
     color: $font-white;
-    background-color: $color-bg;
 
     .container-jumbo {
         display: flex;
+        background-color: $color-bg;
 
         .JumboText {
             width: 35%;
-            padding-top: 5%;
+            padding-top: 2%;
             margin-left: 12%;
             text-align: center;
 

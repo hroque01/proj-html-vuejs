@@ -64,6 +64,7 @@ export default {
     background-position: bottom;
 }
 
+
 p {
     display: flex;
     justify-content: center;

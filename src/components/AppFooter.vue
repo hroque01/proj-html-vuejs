@@ -46,7 +46,7 @@ export default {
 @use '../styles/general.scss' as *;
 
 .container-larger {
-    background-image: url();
+    background-image: url('/home-bg-3.svg');
     color: $font-white;
     padding: 0 6%;
 
