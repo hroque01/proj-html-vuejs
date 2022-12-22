@@ -23,8 +23,9 @@ export default {
             <span class="flamingo">WordPress </span>
         </p>
         <div class="live-chat">
-            <div class="d-flex justify-content-end px-4 py-6"> <!-- Bootstrap class -->
+            <div class="container-chat d-flex justify-content-end px-4 py-6"> <!-- Bootstrap class -->
                 <div class="chat" v-show="toggle">
+                    <img src="/logo.png" alt="">
                     <p>This is a free HubSpot live chat. You can create your own chat flows and engage your costumers
                         with
                         Avada
@@ -76,12 +77,23 @@ export default {
         right: 0;
         bottom: 0;
 
+        .container-chat {
+            position: relative;
+        }
+
         .chat {
             width: 25%;
             background-color: white;
             color: $color-bg;
             padding: 20px;
             border-radius: 5px;
+
+            img {
+                position: absolute;
+                top: -30px;
+                right: 108px;
+                width: 50px;
+            }
         }
 
         .rounded-circle {

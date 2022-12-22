@@ -18,6 +18,7 @@ export default {
                     text: "Services",
                     url: '#',
                     current: false,
+                    icon: true,
                 },
                 {
                     text: "Journal",
@@ -50,11 +51,14 @@ export default {
 
                 <!-- Navigation -->
                 <nav>
-                    <ul>
+                    <ul class="m-0"> <!-- Bootstrap class for margin -->
                         <li class="navigation" v-for="(link, index) in links" :key="index">
                             <a :class="{ active: link.current }" :href="link.url">
                                 {{ link.text }}
                             </a>
+                            <span v-show="link.icon" class="chevron">
+                                <font-awesome-icon icon="fa-solid fa-chevron-down" />
+                            </span>
                         </li>
                     </ul>
                 </nav>
@@ -116,6 +120,11 @@ export default {
                     }
                 }
 
+            }
+
+            .chevron {
+                font-size: 13px;
+                padding-left: 10px;
             }
         }
 
