@@ -4,6 +4,8 @@ import AppJumbotronVue from './components/AppJumbotron.vue';
 import AppServicesVue from './components/AppServices.vue';
 import AppSkilledVue from './components/AppSkilled.vue';
 import AppBrandsVue from './components/AppBrands.vue';
+import AppNavFooterVue from './components/AppNavFooter.vue';
+import AppFooterVue from './components/AppFooter.vue';
 
 export default {
   name: "App",
@@ -13,20 +15,26 @@ export default {
     AppServicesVue,
     AppSkilledVue,
     AppBrandsVue,
+    AppNavFooterVue,
+    AppFooterVue
   }
 }
 </script>
 
 <template>
   <header>
-    <AppNavBar />
+    <AppNavBar /> <!-- non contiene la classe container-larger-->
   </header>
   <main>
-    <AppJumbotronVue />
+    <AppJumbotronVue /> <!-- non contiene la classe container-larger-->
     <AppServicesVue />
-    <AppSkilledVue />
+    <AppSkilledVue /> <!-- modificato il padding in container-larger-->
     <AppBrandsVue />
   </main>
+  <footer>
+    <AppNavFooterVue />
+    <AppFooterVue />
+  </footer>
 </template>
 
 <style lang="scss">
@@ -34,6 +42,15 @@ export default {
 @use './styles/partials/variables.scss' as *;
 
 header {
+  background-image: url("/header-bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: $color-bg;
+}
+
+footer {
+  position: relative;
+  height: 650px;
   background-image: url("/header-bg.svg");
   background-size: contain;
   background-repeat: no-repeat;

@@ -59,8 +59,6 @@ export default {
 @use '../styles/general.scss' as *;
 
 .container-larger {
-    margin: 0 10%;
-    padding: 3%;
 
     h6 {
         color: $flamingo;

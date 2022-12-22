@@ -87,8 +87,6 @@ export default {
 @use '../styles/general.scss' as *;
 
 .container-larger {
-    margin: 0 10%;
-    padding: 3%;
 
     .-coloredFlamingo {
         color: $flamingo;

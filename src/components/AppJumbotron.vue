@@ -6,10 +6,10 @@ export default {
 
 <template>
     <section class="jumbotron">
-        <div class="container-larger">
+        <div class="container-jumbo">
             <!-- Jumbotron text -->
             <div class="JumboText">
-                <h1>Indeperident professional who works remotely to help with your business.</h1>
+                <h1>Independent professional who works remotely to help with your business.</h1>
                 <p>Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.</p>
                 <button class="button">What is a VA excatly?</button>
             </div>
@@ -49,7 +49,7 @@ export default {
     color: $font-white;
     background-color: $color-bg;
 
-    .container-larger {
+    .container-jumbo {
         display: flex;
 
         .JumboText {

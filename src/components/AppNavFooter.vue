@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "AppNavBar",
+    name: "AppNavFooter",
     data() {
         return {
             links: [
@@ -38,7 +38,7 @@ export default {
 
 <template>
 
-    <div class="container-header">
+    <div class="container-larger">
         <div class="header-nav">
             <div class="nav-left">
                 <!-- Logo -->
@@ -69,7 +69,7 @@ export default {
                     </a>
                 </div>
                 <!-- Button -->
-                <button class="button btn_white">
+                <button class="button btn_blue">
                     Get a free consultation
                 </button>
             </div>
@@ -81,10 +81,6 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/partials/variables.scss' as *;
 @use '../styles/general.scss' as *;
-
-.container-header {
-    margin-left: 20px;
-}
 
 .header-nav {
     display: flex;
@@ -100,7 +96,7 @@ export default {
 
         nav {
 
-            margin-left: 5rem;
+            margin-left: 2.25rem;
 
             ul {
                 display: flex;
@@ -143,6 +139,11 @@ export default {
             }
         }
 
+    }
+
+    .btn_blue {
+        color: $font-white;
+        background-color: #000544;
     }
 
 
