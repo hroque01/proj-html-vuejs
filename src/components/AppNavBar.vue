@@ -38,7 +38,6 @@ export default {
 </script>
 
 <template>
-
     <div class="container-header">
         <div class="header-nav">
             <div class="nav-left">
@@ -94,7 +93,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.875rem;
+    padding: 3.8rem;
     color: $font-white;
 
     .nav-left {

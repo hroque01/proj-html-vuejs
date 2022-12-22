@@ -16,7 +16,7 @@ export default {
 
             <!-- Image -->
             <div class="info-image">
-                <img src="/info-5-600x666.jpg" alt="">
+                <img src="/info-5-800x887.jpg" alt="">
             </div>
 
             <!-- Buttons Folder and $39 on right -->
@@ -47,14 +47,21 @@ export default {
 .jumbotron {
     position: relative;
     color: $font-white;
+    background-color: $color-bg;
+
 
     .container-jumbo {
         display: flex;
-        background-color: $color-bg;
+        background-image: url('/home-bg-3.svg');
+        background-position: contain;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+
 
         .JumboText {
-            width: 35%;
-            padding-top: 2%;
+            width: 24%;
+            padding-top: 5%;
             margin-left: 12%;
             text-align: center;
 
@@ -70,10 +77,10 @@ export default {
         .info-image {
             display: flex;
             justify-content: center;
-            margin: 0 10%;
+            margin: 0 5%;
 
             img {
-                width: 80%;
+                width: 70%;
             }
         }
 

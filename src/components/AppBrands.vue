@@ -95,6 +95,7 @@ export default {
 
     .brands {
         display: flex;
+        justify-content: center;
         margin-bottom: 5%;
     }
 
@@ -111,11 +112,12 @@ export default {
 
     .bottom-service {
         display: flex;
+        justify-content: center;
         gap: 15px;
 
         .bottom-service-right {
             color: $color-bg;
-            width: 47%;
+            width: 33%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -140,12 +142,12 @@ export default {
 
     .card-skill {
         display: flex;
-        padding: 40px;
+        padding: 40px 100px;
         gap: 30px;
 
         .single-card {
             color: $font-white;
-            padding: 35px;
+            padding: 70px;
             border-radius: 5px;
             background-color: #000545;
         }
@@ -155,7 +157,7 @@ export default {
         }
 
         .learn {
-            margin-top: 15%;
+            margin-top: 5%;
 
             a {
                 font-weight: bold;

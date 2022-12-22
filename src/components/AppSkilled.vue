@@ -34,7 +34,7 @@ export default {
                 What is a VA exactly?
             </button>
             <div class="card-skill">
-                <div class="single-card" v-for="(skilled, index) in skills" :key="index">
+                <div class="single-card rounded" v-for="(skilled, index) in skills" :key="index">
                     <div class="d-flex justify-content-between">
                         <h2> {{ skilled.number }}</h2>
                         <div class="paragraph-skilled">
@@ -87,18 +87,18 @@ p {
     }
 
     h1 {
-        width: 50%;
+        width: 45%;
         text-align: center;
         padding-bottom: 5%;
     }
 
     .card-skill {
         display: flex;
-        padding: 40px;
-        gap: 10px;
+        padding: 42px;
+        gap: 55px;
 
         .single-card {
-            padding: 35px;
+            padding: 50px;
             background-color: #000545;
         }
 

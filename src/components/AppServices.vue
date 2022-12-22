@@ -33,7 +33,7 @@ export default {
         <div>
             <ul class="d-flex p-0"> <!-- bootstrap  class-->
                 <li class="cards" v-for="(service, index) in services" :key="index">
-                    <h3>{{ service.title }}</h3>
+                    <h1>{{ service.title }}</h1>
                     <p>{{ service.text }}</p>
                 </li>
             </ul>
@@ -60,6 +60,8 @@ export default {
 
 .container-larger {
 
+    padding: 87px;
+
     h6 {
         color: $flamingo;
         padding-bottom: 1.25rem;
@@ -69,13 +71,19 @@ export default {
         color: $color-bg;
         padding: 40px;
 
+        h1 {
+            margin-bottom: 35px;
+        }
+
+        &:nth-child(4) {
+            h1 {
+                width: 80%;
+            }
+        }
+
         &:nth-child(1),
         &:nth-child(4) {
             border-top: 3px solid #f1f2f5;
-
-            h3 {
-                width: 80%;
-            }
         }
 
         &:nth-child(2) {
@@ -95,11 +103,8 @@ export default {
     }
 
     .info-img {
-        padding: 5% 0;
+        padding: 5% 10%;
 
-        img {
-            width: 85%;
-        }
     }
 
     .bottom-service {
@@ -108,7 +113,7 @@ export default {
 
         .bottom-service-right {
             color: $color-bg;
-            width: 45%;
+            width: 35%;
             display: flex;
             flex-direction: column;
             justify-content: center;

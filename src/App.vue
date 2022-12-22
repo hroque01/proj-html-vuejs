@@ -25,8 +25,8 @@ export default {
   <header>
     <AppNavBar /> <!-- non contiene la classe container-larger-->
   </header>
+  <AppJumbotronVue /> <!-- non contiene la classe container-larger-->
   <main>
-    <AppJumbotronVue /> <!-- non contiene la classe container-larger-->
     <AppServicesVue />
     <AppSkilledVue /> <!-- modificato il padding in container-larger-->
     <AppBrandsVue />
@@ -50,9 +50,10 @@ header {
 
 footer {
   position: relative;
-  background-image: url("/header-bg.svg");
-  background-size: contain;
+  background-image: url("/footer-bg-1.svg");
   background-repeat: no-repeat;
-  background-color: $color-bg;
+  background-color: #0f1164;
+  background-size: 2160px;
+  background-position: center;
 }
 </style>
