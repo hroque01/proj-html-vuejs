@@ -46,7 +46,7 @@ export default {
                 <img src="/icon-1-2x-200x155.png" alt="">
                 <h1>Find the ultimate virtual assistant for your business</h1>
                 <p>Donest est tristique eu massa pallentesque non sit sit donec. Proin aucto est vehicula</p>
-                <button class="button">
+                <button class="button btn_orange">
                     What is a VA exactly?
                 </button>
             </div>
@@ -127,6 +127,21 @@ export default {
 
             p {
                 padding-bottom: 3%;
+            }
+
+            .btn_orange {
+                background-color: $flamingo;
+                font-weight: bold;
+                padding: 5px;
+                color: $font-white;
+                transition-duration: 0.4s;
+                -webkit-transition-duration: 0.4s;
+                border: 10px solid $flamingo;
+
+                &:hover {
+                    color: $color-bg;
+                    background-color: white;
+                }
             }
         }
 

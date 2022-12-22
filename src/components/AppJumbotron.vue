@@ -11,7 +11,7 @@ export default {
             <div class="JumboText">
                 <h1>Independent professional who works remotely to help with your business.</h1>
                 <p>Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.</p>
-                <button class="button">What is a VA excatly?</button>
+                <button class="button btn_white">What is a VA excatly?</button>
             </div>
 
             <!-- Image -->
@@ -71,6 +71,21 @@ export default {
 
             p {
                 margin: 50px 0;
+            }
+
+            .btn_white {
+                background-color: white;
+                font-weight: bold;
+                padding: 5px;
+                color: $color-bg;
+                transition-duration: 0.4s;
+                -webkit-transition-duration: 0.4s;
+                border: 10px solid white;
+
+                &:hover {
+                    color: $font-white;
+                    background-color: $color-bg;
+                }
             }
         }
 

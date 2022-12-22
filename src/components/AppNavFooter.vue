@@ -153,8 +153,17 @@ export default {
     .btn_blue {
         color: $font-white;
         background-color: #000544;
-    }
+        font-weight: bold;
+        padding: 5px;
+        transition-duration: 0.4s;
+        -webkit-transition-duration: 0.4s;
+        border: 10px solid #000544;
 
+        &:hover {
+            color: #000544;
+            background-color: white;
+        }
+    }
 
 }
 </style>

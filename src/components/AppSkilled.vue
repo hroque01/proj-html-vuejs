@@ -30,7 +30,7 @@ export default {
         <p>Donec est tristique eu massa pellentesque.</p>
         <div class="container-larger">
             <h1>Highly-skilled, independent professional freelancer.</h1>
-            <button class="button">
+            <button class="button btn_orange">
                 What is a VA exactly?
             </button>
             <div class="card-skill">
@@ -86,6 +86,21 @@ p {
         margin-bottom: 3%;
     }
 
+    .btn_orange {
+        background-color: $flamingo;
+        font-weight: bold;
+        padding: 5px;
+        color: $font-white;
+        transition-duration: 0.4s;
+        -webkit-transition-duration: 0.4s;
+        border: 10px solid $flamingo;
+
+        &:hover {
+            color: $color-bg;
+            background-color: white;
+        }
+    }
+
     h1 {
         width: 45%;
         text-align: center;
@@ -96,6 +111,11 @@ p {
         display: flex;
         padding: 42px;
         gap: 55px;
+
+        // &:nth-child(1) {
+        //     background-image: url('/box-bg-1.svg');
+        //     background-size: contain;
+        // }
 
         .single-card {
             padding: 50px;

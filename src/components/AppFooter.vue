@@ -14,8 +14,8 @@ export default {
         <div class="info">
             <h2>Independent professional who works remotely to help with your business.</h2>
         </div>
-        <button class="button">
-            What is a VA excatly?
+        <button class="button btn_white">
+            What is a VA exactly?
         </button>
         <p class="copyright"> &copy; Copyright 2012 - 2020 | Avada Theme by <span class="flamingo"> ThemeFusion </span>|
             All Rights
@@ -57,6 +57,21 @@ export default {
 
     button {
         margin: 2rem 0;
+    }
+
+    .btn_white {
+        background-color: white;
+        font-weight: bold;
+        padding: 5px;
+        color: $color-bg;
+        transition-duration: 0.4s;
+        -webkit-transition-duration: 0.4s;
+        border: 10px solid white;
+
+        &:hover {
+            color: $font-white;
+            background-color: $color-bg;
+        }
     }
 
     .flamingo {

@@ -54,7 +54,7 @@ export default {
                     <img src="/icon-2-2x-200x127.png" alt="">
                     <h1>Professional who works to help with your business.</h1>
                     <p>Donest est tristique eu massa pallentesque non sit sit donec. Proin aucto est vehicula</p>
-                    <button class="button">
+                    <button class="button btn_orange">
                         What is a VA exactly?
                     </button>
                 </div>
@@ -136,6 +136,21 @@ export default {
             button {
                 color: $font-white;
                 background-color: $flamingo;
+            }
+
+            .btn_orange {
+                background-color: $flamingo;
+                font-weight: bold;
+                padding: 5px;
+                color: $font-white;
+                transition-duration: 0.4s;
+                -webkit-transition-duration: 0.4s;
+                border: 10px solid $flamingo;
+
+                &:hover {
+                    color: $color-bg;
+                    background-color: white;
+                }
             }
         }
     }
