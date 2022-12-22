@@ -9,7 +9,10 @@ export default {
         <div class="container-jumbo">
             <!-- Jumbotron text -->
             <div class="JumboText">
-                <h1>Independent professional who works remotely to help with your business.</h1>
+                <div class="title-jumbo">
+                    <h1>Independent professional who works remotely to help with your business.</h1>
+                    <img src="/curved-line.png" alt="">
+                </div>
                 <p>Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.</p>
                 <button class="button btn_white">What is a VA excatly?</button>
             </div>
@@ -65,7 +68,19 @@ export default {
             margin-left: 12%;
             text-align: center;
 
+            .title-jumbo {
+                position: relative;
+
+                img {
+                    width: 50%;
+                    position: absolute;
+                    top: 75px;
+                    right: 0;
+                }
+            }
+
             h1 {
+                line-height: 3rem;
                 padding-top: 2rem;
             }
 
