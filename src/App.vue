@@ -50,7 +50,6 @@ header {
 
 footer {
   position: relative;
-  height: 650px;
   background-image: url("/header-bg.svg");
   background-size: contain;
   background-repeat: no-repeat;
