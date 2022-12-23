@@ -19,7 +19,7 @@ export default {
 
             <!-- Image -->
             <div class="info-image">
-                <img src="/info-5-800x887.jpg" alt="">
+                <img src="/info-5-600x666.jpg" alt="">
             </div>
 
             <!-- Buttons Folder and $39 on right -->
@@ -63,8 +63,8 @@ export default {
 
 
         .JumboText {
-            width: 24%;
-            padding-top: 5%;
+            width: 35%;
+            padding-top: 2%;
             margin-left: 12%;
             text-align: center;
 
@@ -107,10 +107,10 @@ export default {
         .info-image {
             display: flex;
             justify-content: center;
-            margin: 0 5%;
+            margin: 0 10%;
 
             img {
-                width: 70%;
+                width: 80%;
             }
         }
 

@@ -23,7 +23,7 @@ export default {
             <span class="flamingo">WordPress </span>
         </p>
         <div class="live-chat">
-            <div class="container-chat d-flex justify-content-end px-3 py-6"> <!-- Bootstrap class -->
+            <div class="container-chat d-flex justify-content-end px-4 py-6"> <!-- Bootstrap class -->
                 <div class="chat border" v-show="toggle">
                     <img src="/logo.png" alt="">
                     <p>This is a free HubSpot live chat. You can create your own chat flows and engage your costumers
@@ -33,7 +33,7 @@ export default {
                     </p>
                 </div>
             </div>
-            <div class="d-flex justify-content-end p-3"> <!-- Bootstrap class -->
+            <div class="d-flex justify-content-end p-4"> <!-- Bootstrap class -->
                 <div class="border rounded-circle" @click='toggle = !toggle'>
                     <font-awesome-icon icon="fa-solid fa-message" />
                 </div>
@@ -47,7 +47,6 @@ export default {
 @use '../styles/general.scss' as *;
 
 .container-larger {
-    background-image: url('/home-bg-3.svg');
     color: $font-white;
     padding: 0 6%;
 

@@ -102,23 +102,18 @@ p {
     }
 
     h1 {
-        width: 45%;
+        width: 50%;
         text-align: center;
         padding-bottom: 5%;
     }
 
     .card-skill {
         display: flex;
-        padding: 42px;
-        gap: 55px;
-
-        // &:nth-child(1) {
-        //     background-image: url('/box-bg-1.svg');
-        //     background-size: contain;
-        // }
+        padding: 40px;
+        gap: 40px;
 
         .single-card {
-            padding: 50px;
+            padding: 35px;
             background-color: #000545;
         }
 

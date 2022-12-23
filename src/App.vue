@@ -53,7 +53,7 @@ footer {
   background-image: url("/footer-bg-1.svg");
   background-repeat: no-repeat;
   background-color: #0f1164;
-  background-size: 2160px;
+  background-size: cover;
   background-position: center;
 }
 </style>

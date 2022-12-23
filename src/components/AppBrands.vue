@@ -117,7 +117,7 @@ export default {
 
         .bottom-service-right {
             color: $color-bg;
-            width: 33%;
+            width: 47%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -157,12 +157,12 @@ export default {
 
     .card-skill {
         display: flex;
-        padding: 40px 100px;
+        padding: 40px;
         gap: 30px;
 
         .single-card {
             color: $font-white;
-            padding: 70px;
+            padding: 35px;
             border-radius: 5px;
             background-color: #000545;
         }
@@ -172,7 +172,7 @@ export default {
         }
 
         .learn {
-            margin-top: 5%;
+            margin-top: 15%;
 
             a {
                 font-weight: bold;

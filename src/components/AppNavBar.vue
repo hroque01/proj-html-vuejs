@@ -93,7 +93,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3.8rem;
+    padding: 1.875rem;
     color: $font-white;
 
     .nav-left {
